@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url(./images.jpg);
+    
+    height: 100vh;
+    width: 100%;
+}
+.container
+{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 5;
+        padding: 40px 0;
+        text-align: center;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        font-weight: bold;
+        border: 5px inset #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    
+    
+}
+.container2
+{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 5;
+        padding: 40px 0;
+        text-align: center;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        font-weight: bold;
+        border: 5px inset #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    
+    
+}
+.container1{
+    position: relative;
+    background: rgb(0, 36, 24);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0% , rgba(9,13,121,1) , 36% , rgba(0,212,255,1) 100%);
+    background-size: cover;
+    text-align: left;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    border: 5px inset #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0 300px;
+}
+.btn{
+    background-color: blue;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0% , rgb(119, 121, 9) , 36% , rgb(102, 255, 0) 100%);
+    color: #fff;
+}
+
+table.center{
+    color: #fff;
+    background-color: rgb(12, 12, 12);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-50 {
+    width: 70%!important;
+}
